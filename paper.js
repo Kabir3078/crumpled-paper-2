@@ -17,8 +17,8 @@
     display(){
       var pos =this.body.position;
 
-      ellipseMode(RADIUS);
-      ellipse(pos.x,pos.y,this.radius,this.radius);
+      imageMode(CENTER);
+      image(this.image,0,0,this.width,this.height);
 
     }
   };
